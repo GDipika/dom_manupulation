@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div id="container">
+        <div class="d-flex">
+            <div class="col-6" style="height: 100px">
+                <div class="d-flex" style="text-align: center;">
+                    <div class="col-6 D bg-danger" onmouseleave="change()" onmouseenter="change()" style="height: 100px">RED</div>
+                    <div class="col-6 bg-success" onmouseleave="change1()" onmouseenter="change1()" style="height: 100px">green</div>
+                </div>
+                <div class="d-flex" style="text-align: center;">
+                    <div class="col-6 bg-warning" onmouseleave="change2()" onmouseenter="change2()">yellow</div>
+                    <div class="col-6 bg-primary " onmouseleave="change3()" onmouseenter="change3()"style="height: 100px">orange</div>
+                </div>
+                <div class="d-flex" style="text-align:center;">
+                </div>
+            </div>
+            <div class="d">
+                <DIV id="redSignal" style="height: 50px; width: 200px;text-align:center;">red</DIV>
+                <DIV id="greenSignal" style="height: 50px;text-align: center;">green</DIV>
+                <DIV id="yellowSignal" style="height: 50px;text-align: center;">yellow</DIV>
+                <DIV id="orangeSignal" style="height: 50px;text-align: center;">orange</DIV>
+            </div>
+        </div>
+    </div>
+    </div>
+    </div>
+    </div>
+    <div class="S"></div>
+<script>
+    const S=document.querySelector(".S");
+    S.innerHTML="<a href='#'>DOM</a>";
+</script>
+
+
+    <script src="script.js"></script>
+   
+</body>
+
+</html>
